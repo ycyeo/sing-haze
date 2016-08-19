@@ -8,5 +8,5 @@ var server = http.createServer( function(request, response) {
    );
    response.write('PONG');
    response.end();
-}).listen(8080);
+}).listen(80);
 
